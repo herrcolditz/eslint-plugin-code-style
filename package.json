@@ -1,14 +1,22 @@
 {
 	"name": "eslint-plugin-code-style",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"keywords": [
 		"eslint-plugin",
 		"code-style"
 	],
-	"author": "colditzDEV",
+	"author": {
+		"name": "colditzDEV",
+		"url": "https://colditz.dev"
+	},
 	"license": "ISC",
-	"description": "",
+	"homepage": "https://github.com/herrcolditz/eslint-plugin-code-style",
+	"description": "A simple collection of Code Style rules for ESLint.",
 	"main": "src/code-style-plugin.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/herrcolditz/eslint-plugin-code-style.git"
+	},
 	"peerDependencies": {
 		"eslint": "^9.0.0"
 	}
