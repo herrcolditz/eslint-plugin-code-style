@@ -1,10 +1,14 @@
 {
 	"name": "eslint-plugin-code-style",
 	"version": "1.0.0",
-	"keywords": [],
+	"keywords": [
+		"eslint-plugin",
+		"code-style"
+	],
 	"author": "colditzDEV",
 	"license": "ISC",
 	"description": "",
+	"main": "src/code-style-plugin.js",
 	"peerDependencies": {
 		"eslint": "^9.0.0"
 	}
