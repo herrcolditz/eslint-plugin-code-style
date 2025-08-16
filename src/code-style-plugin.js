@@ -2,7 +2,6 @@ const jsxPaddingLine = require('./rules/jsx-padding-line');
 const stylistic = require('@stylistic/eslint-plugin');
 const typescriptEslint = require('@typescript-eslint/eslint-plugin');
 const unusedImports = require('eslint-plugin-unused-imports');
-const deprecation = require('eslint-plugin-deprecation');
 const unicorn = require('eslint-plugin-unicorn');
 const perfectionist = require('eslint-plugin-perfectionist');
 
@@ -19,7 +18,6 @@ module.exports = {
 				'@stylistic': stylistic,
 				'@typescript-eslint': typescriptEslint,
 				'unused-imports': unusedImports,
-				deprecation,
 				perfectionist,
 				unicorn,
 			},
