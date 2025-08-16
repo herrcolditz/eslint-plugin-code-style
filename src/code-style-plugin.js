@@ -4,6 +4,7 @@ const typescriptEslint = require('@typescript-eslint/eslint-plugin');
 const unusedImports = require('eslint-plugin-unused-imports');
 const unicorn = require('eslint-plugin-unicorn');
 const perfectionist = require('eslint-plugin-perfectionist');
+const packageJson = require('../package.json');
 
 module.exports = {
 	configs: {
@@ -218,8 +219,8 @@ module.exports = {
 	},
 
 	meta: {
-		name: '@colditzdev-code-style',
-		version: '1.0.0',
+		name: packageJson.name,
+		version: packageJson.version,
 	},
 
 	rules: {
